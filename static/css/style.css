@@ -1,0 +1,16 @@
+p{
+    background-color: pink;
+    font-family: sans-serif;
+    color: black;
+    height: 50px;
+    padding: 10px;
+    font-size: 200%;
+    text-align: center;
+    width: 100%;
+    border: 2px solid blueviolet;
+    border-radius: 15px;
+}
+#container{
+    margin:auto;
+    width: 800px;
+}

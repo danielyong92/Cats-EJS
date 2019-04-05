@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Details Page for <%= cuddles.Name %></h1>
+    <p><img src="<%= cuddles.Img %>"></p>
+    <h2>Favorite Food: <%= cuddles.FavoriteFood %></h2>
+    <h2>Age: <%= cuddles.Age %></h2>
+
+    <h2>Sleeping spots:
+        <ul>
+            <% for (var x in cuddles.sleepingspots) { %>
+            <li><%=cuddles.sleepingspots[x] %></li>
+            <% } %>
+        </ul>
+    </h2>
+</body>
+
+</html>
